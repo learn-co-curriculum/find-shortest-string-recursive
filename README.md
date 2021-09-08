@@ -1,12 +1,19 @@
 # Day 4: Recursive Find Shortest String
 
-**Fork and then clone me!**
+## Learning Goals
 
-Given an Array of strings, return the shortest string. If there is more than one string of that length, return the string that comes first in the list. The Array will have a minimum length of 1.
+- Solve algorithm problems using recursion
 
-Once you're done solving the problem, calculate the average run time and compare it to the average run time for the iterative version.
+## Instructions
 
-```
+Given an array of strings, return the shortest string. If there is more than one
+string of that length, return the string that comes first in the list. The array
+will have a minimum length of 1.
+
+Once you're done solving the problem, calculate the average run time and compare
+it to the average run time for the iterative version.
+
+```txt
 Input: ['aaa', 'a', 'bb', 'ccc']
 Output: 'a'
 
@@ -17,7 +24,8 @@ Input: ['flower', 'juniper', 'lily', 'dandelion']
 Output: 'lily'
 ```
 
-You may wish to convert your iterative solution to a recursive one. We've included our old solutions in Ruby and JavaScript below:
+You may wish to convert your iterative solution to a recursive one. We've
+included our old solutions in Ruby and JavaScript below:
 
 ```ruby
 def find_shortest_string(arr)
@@ -35,9 +43,10 @@ function findShortestString(arr) {
 }
 ```
 
-Use the language of your choosing. We've included starter files for some languages where you can pseudocode, explain your solution and code.
+Use the language of your choosing. We've included starter files for some
+languages where you can pseudocode, explain your solution and code.
 
-## Before you start coding:
+## Before you start coding
 
 1. Rewrite the problem in your own words
 2. Validate that you understand the problem
