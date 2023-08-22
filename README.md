@@ -25,7 +25,7 @@ Output: 'lily'
 ```
 
 You may wish to convert your iterative solution to a recursive one. We've
-included our old solutions in Ruby and JavaScript below:
+included our old solutions in Ruby, JavaScript, and Python below:
 
 ```ruby
 def find_shortest_string(arr)
@@ -41,6 +41,11 @@ function findShortestString(arr) {
     string.length < shortest.length ? string : shortest
   );
 }
+```
+
+```python
+def find_shortest_string(list):
+  return min(list, key = len)
 ```
 
 Use the language of your choosing. We've included starter files for some
